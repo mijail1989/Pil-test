@@ -1,9 +1,39 @@
 body {
-  background-color: black;
+  background-color: rgb(32, 31, 31);
 }
 
 * {
   font-family: "Archivo Narrow", sans-serif;
+}
+.sneakers-category-bg {
+  background: url(/assets/sneakers.png);
+}
+.brand-category-bg {
+  background: url(/assets/brand.png);
+}
+
+.header-bg {
+  background: url(/assets/DSC01345\ 5.png);
+}
+.item1 {
+  background: url(/assets/bestseller1.png);
+}
+.item2 {
+  background: url(/assets/bestseller2.png);
+}
+.item3 {
+  background: url(/assets/bestseller3.png);
+}
+.decollete-category-container {
+  background: url(/assets/decollette.png);
+  border-right: 1.5px solid white;
+}
+.sandals-category-container {
+  background: url(/assets/sandals.png);
+  border-left: 1.5px solid white;
+}
+.extra-small-text {
+  font-size: 12px;
 }
 .small-text {
   font-size: 14px;
@@ -19,13 +49,11 @@ body {
 .medium-text {
   font-size: 34px;
   font-style: normal;
-  font-weight: 700;
   line-height: 40px;
 }
 .large-text {
   font-size: 64px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: -1.28px;
 }
@@ -38,39 +66,24 @@ body {
 .svg-margin {
   margin-left: 20px;
 }
-.sneakers-category-bg {
-  background: url(/assets/sneakers.png);
-}
-.brand-category-bg {
-  background: url(/assets/brand.png);
-}
-
-.header-bg {
-  background: url(/assets/DSC01345\ 5.png);
-}
 .main-img-container {
   height: 1017px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.decollete-category-container {
+.split-screen-img-container {
   height: 1030px;
-  background: url(/assets/decollette.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  border-right: 1.5px solid white;
-  background-position: bottom;
-}
-.sandals-category-container {
-  height: 1030px;
-  background: url(/assets/sandals.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  border-left: 1.5px solid white;
-  background-position: bottom;
 }
 .custom-borderY {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
+}
+.carousel {
+  height: 536px;
+  background-size: 100%;
+}
+.button-carousel {
+  height: fit-content;
 }

@@ -18,13 +18,14 @@
       href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/splide.min.css" />
     <!-- Css Link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container navbar-height text-white">
+    <div class="container bg-black text-white">
       <!-- NavBar -->
-      <div class="d-flex container-fluid mt-3 justify-content-between">
+      <div class="d-flex container-fluid pt-3 justify-content-between">
         <a class="small-text text-white" href="">Newsletter| 10% di sconto</a>
         <p class="small-text">
           Spedizione gratuita per ordini superiori a 100 €
@@ -260,37 +261,41 @@
       <!-- Header -->
       <div class="header-bg main-img-container row">
         <div class="mt-auto ps-md-4 pb-md-3">
-          <h1 class="large-text text-uppercase">MAIN COLLECTION</h1>
+          <h1 class="large-text fw-bold text-uppercase">MAIN COLLECTION</h1>
           <p class="normal-text text-uppercase">Acquista ora</p>
         </div>
       </div>
-      <!-- Categories Decollete Sandals -->
+      <!-- Categories Decollete-Sandals Row -->
       <div class="row">
-        <div class="col-md-6 d-flex decollete-category-container custom-borderY">
+        <div
+          class="col-md-6 d-flex decollete-category-container split-screen-img-container custom-borderY"
+        >
           <div class="mt-auto ps-md-4 pb-md-3">
-            <h2 class="large-text text-uppercase">décolleté</h2>
+            <h2 class="large-text fw-bold text-uppercase">décolleté</h2>
             <p class="normal-text text-uppercase">Acquista ora</p>
           </div>
         </div>
-        <div class="col-md-6 d-flex sandals-category-container custom-borderY">
+        <div
+          class="col-md-6 d-flex split-screen-img-container sandals-category-container custom-borderY"
+        >
           <div class="mt-auto ps-md-4 pb-md-3">
-            <h2 class="large-text text-uppercase">sandals</h2>
+            <h2 class="large-text fw-bold text-uppercase">sandals</h2>
             <p class="normal-text text-uppercase">Acquista ora</p>
           </div>
         </div>
       </div>
-      <!-- Categories Sneakers -->
+      <!-- Categories Sneakers Row -->
       <div class="sneakers-category-bg main-img-container row">
         <div class="mt-auto ps-md-4 pb-md-3">
-          <h2 class="large-text text-uppercase">SNEAKERS</h2>
+          <h2 class="large-text fw-bold text-uppercase">SNEAKERS</h2>
           <p class="normal-text text-uppercase">Acquista ora</p>
         </div>
       </div>
       <!-- BestSellers Row-->
       <div class="row bg-white text-black">
-        <h3 class="large-text text-uppercase mt-5">best seller</h3>
+        <h3 class="large-text fw-bold text-uppercase mt-5">best seller</h3>
         <div class="col-md-4 mb-3">
-          <ul class="d-flex w-100 justify-content-between  list-unstyled">
+          <ul class="d-flex w-100 justify-content-between list-unstyled">
             <li class="">
               <a
                 class="normal-text text-dark text-uppercase text-decoration-none"
@@ -321,20 +326,231 @@
             </li>
           </ul>
         </div>
+        <div class="mb-5">
+          <section class="splide" aria-label="Basic Structure Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide text-red">
+                  <div
+                    class="carousel item1 justify-content-between px-4 pt-3 d-flex"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none bg-black rounded-0 text-white text-uppercase py-1 px-2 extra-small-text button-carousel"
+                    >
+                      BEST SELLER
+                    </a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="18"
+                      viewBox="0 0 20 18"
+                      fill="none"
+                    >
+                      <path
+                        d="M14.2347 5.34579e-05C13.4598 -0.00182539 12.6929 0.157077 11.9822 0.466773C11.2715 0.776469 10.6323 1.23026 10.1049 1.79963L9.99999 1.9107L9.89758 1.80297C9.38348 1.25037 8.76447 0.806357 8.07691 0.497007C7.38934 0.187657 6.64708 0.0192075 5.89371 0.00154887C5.14033 -0.0161098 4.39104 0.117379 3.68981 0.394176C2.98859 0.670973 2.34958 1.0855 1.8103 1.61341C0.651621 2.81694 0.00280344 4.42382 9.06366e-06 6.09681C-0.00278532 7.7698 0.640661 9.37885 1.79531 10.5863L7.98421 17.1224C8.24235 17.3993 8.55448 17.6202 8.90123 17.7711C9.24799 17.9221 9.62197 18 9.99999 18C10.378 18 10.752 17.9221 11.0988 17.7711C11.4455 17.6202 11.7576 17.3993 12.0158 17.1224L18.2047 10.5863C19.3592 9.379 20.0026 7.77019 20 6.0974C19.9974 4.4246 19.3488 2.81784 18.1905 1.61425C17.132 0.579755 15.7127 0.000576452 14.2347 5.34579e-05ZM16.9965 9.43637L10.8085 15.9725C10.7039 16.0817 10.5784 16.1687 10.4394 16.2281C10.3005 16.2875 10.151 16.3181 9.99999 16.3181C9.84897 16.3181 9.6995 16.2875 9.56057 16.2281C9.42163 16.1687 9.2961 16.0817 9.19151 15.9725L3.00595 9.43637C2.16149 8.5443 1.68765 7.36306 1.68085 6.133C1.67404 4.90294 2.13478 3.71649 2.96931 2.81508C3.71717 2.08298 4.72022 1.67225 5.76526 1.6702C6.31394 1.66956 6.8568 1.78291 7.35965 2.00309C7.86249 2.22327 8.31441 2.54552 8.68694 2.94953L9.39634 3.70109C9.55673 3.86111 9.77376 3.95094 9.99999 3.95094C10.2262 3.95094 10.4433 3.86111 10.6036 3.70109L11.3155 2.94953C11.6881 2.54644 12.1397 2.22499 12.6421 2.0054C13.1445 1.78581 13.6867 1.67282 14.2347 1.67354C15.2811 1.67525 16.2855 2.08665 17.034 2.82009C17.8666 3.72166 18.3259 4.90728 18.3185 6.13616C18.311 7.36503 17.8375 8.54499 16.994 9.43637H16.9965Z"
+                        fill="black"
+                        fill-opacity="0.2"
+                      />
+                    </svg>
+                  </div>
+                  <div class="mx-4">
+                    <h5 class="normal-text fw-bold mt">ZOE 707-10</h5>
+                    <p class="normal-text">000,00 €</p>
+                    <p class="small-text text-secondary">
+                      Sneakers basse consectetur adipiscing elit sed do eiusmod
+                    </p>
+                  </div>
+                </li>
+                <li class="splide__slide text-red">
+                  <div
+                    class="carousel item2 justify-content-between px-4 pt-3 d-flex"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none bg-black rounded-0 text-white text-uppercase py-1 px-2 extra-small-text button-carousel"
+                    >
+                      BEST SELLER
+                    </a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="18"
+                      viewBox="0 0 20 18"
+                      fill="none"
+                    >
+                      <path
+                        d="M14.2347 5.34579e-05C13.4598 -0.00182539 12.6929 0.157077 11.9822 0.466773C11.2715 0.776469 10.6323 1.23026 10.1049 1.79963L9.99999 1.9107L9.89758 1.80297C9.38348 1.25037 8.76447 0.806357 8.07691 0.497007C7.38934 0.187657 6.64708 0.0192075 5.89371 0.00154887C5.14033 -0.0161098 4.39104 0.117379 3.68981 0.394176C2.98859 0.670973 2.34958 1.0855 1.8103 1.61341C0.651621 2.81694 0.00280344 4.42382 9.06366e-06 6.09681C-0.00278532 7.7698 0.640661 9.37885 1.79531 10.5863L7.98421 17.1224C8.24235 17.3993 8.55448 17.6202 8.90123 17.7711C9.24799 17.9221 9.62197 18 9.99999 18C10.378 18 10.752 17.9221 11.0988 17.7711C11.4455 17.6202 11.7576 17.3993 12.0158 17.1224L18.2047 10.5863C19.3592 9.379 20.0026 7.77019 20 6.0974C19.9974 4.4246 19.3488 2.81784 18.1905 1.61425C17.132 0.579755 15.7127 0.000576452 14.2347 5.34579e-05ZM16.9965 9.43637L10.8085 15.9725C10.7039 16.0817 10.5784 16.1687 10.4394 16.2281C10.3005 16.2875 10.151 16.3181 9.99999 16.3181C9.84897 16.3181 9.6995 16.2875 9.56057 16.2281C9.42163 16.1687 9.2961 16.0817 9.19151 15.9725L3.00595 9.43637C2.16149 8.5443 1.68765 7.36306 1.68085 6.133C1.67404 4.90294 2.13478 3.71649 2.96931 2.81508C3.71717 2.08298 4.72022 1.67225 5.76526 1.6702C6.31394 1.66956 6.8568 1.78291 7.35965 2.00309C7.86249 2.22327 8.31441 2.54552 8.68694 2.94953L9.39634 3.70109C9.55673 3.86111 9.77376 3.95094 9.99999 3.95094C10.2262 3.95094 10.4433 3.86111 10.6036 3.70109L11.3155 2.94953C11.6881 2.54644 12.1397 2.22499 12.6421 2.0054C13.1445 1.78581 13.6867 1.67282 14.2347 1.67354C15.2811 1.67525 16.2855 2.08665 17.034 2.82009C17.8666 3.72166 18.3259 4.90728 18.3185 6.13616C18.311 7.36503 17.8375 8.54499 16.994 9.43637H16.9965Z"
+                        fill="black"
+                        fill-opacity="0.2"
+                      />
+                    </svg>
+                  </div>
+                  <div class="mx-4">
+                    <h5 class="normal-text fw-bold mt">ZOE 707-10</h5>
+                    <p class="normal-text">000,00 €</p>
+                    <p class="small-text text-secondary">
+                      Sneakers basse consectetur adipiscing elit sed do eiusmod
+                    </p>
+                  </div>
+                </li>
+                <li class="splide__slide text-red">
+                  <div
+                    class="carousel item3 justify-content-between px-4 pt-3 d-flex"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none bg-black rounded-0 text-white text-uppercase py-1 px-2 extra-small-text button-carousel"
+                    >
+                      BEST SELLER
+                    </a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="18"
+                      viewBox="0 0 20 18"
+                      fill="none"
+                    >
+                      <path
+                        d="M14.2347 5.34579e-05C13.4598 -0.00182539 12.6929 0.157077 11.9822 0.466773C11.2715 0.776469 10.6323 1.23026 10.1049 1.79963L9.99999 1.9107L9.89758 1.80297C9.38348 1.25037 8.76447 0.806357 8.07691 0.497007C7.38934 0.187657 6.64708 0.0192075 5.89371 0.00154887C5.14033 -0.0161098 4.39104 0.117379 3.68981 0.394176C2.98859 0.670973 2.34958 1.0855 1.8103 1.61341C0.651621 2.81694 0.00280344 4.42382 9.06366e-06 6.09681C-0.00278532 7.7698 0.640661 9.37885 1.79531 10.5863L7.98421 17.1224C8.24235 17.3993 8.55448 17.6202 8.90123 17.7711C9.24799 17.9221 9.62197 18 9.99999 18C10.378 18 10.752 17.9221 11.0988 17.7711C11.4455 17.6202 11.7576 17.3993 12.0158 17.1224L18.2047 10.5863C19.3592 9.379 20.0026 7.77019 20 6.0974C19.9974 4.4246 19.3488 2.81784 18.1905 1.61425C17.132 0.579755 15.7127 0.000576452 14.2347 5.34579e-05ZM16.9965 9.43637L10.8085 15.9725C10.7039 16.0817 10.5784 16.1687 10.4394 16.2281C10.3005 16.2875 10.151 16.3181 9.99999 16.3181C9.84897 16.3181 9.6995 16.2875 9.56057 16.2281C9.42163 16.1687 9.2961 16.0817 9.19151 15.9725L3.00595 9.43637C2.16149 8.5443 1.68765 7.36306 1.68085 6.133C1.67404 4.90294 2.13478 3.71649 2.96931 2.81508C3.71717 2.08298 4.72022 1.67225 5.76526 1.6702C6.31394 1.66956 6.8568 1.78291 7.35965 2.00309C7.86249 2.22327 8.31441 2.54552 8.68694 2.94953L9.39634 3.70109C9.55673 3.86111 9.77376 3.95094 9.99999 3.95094C10.2262 3.95094 10.4433 3.86111 10.6036 3.70109L11.3155 2.94953C11.6881 2.54644 12.1397 2.22499 12.6421 2.0054C13.1445 1.78581 13.6867 1.67282 14.2347 1.67354C15.2811 1.67525 16.2855 2.08665 17.034 2.82009C17.8666 3.72166 18.3259 4.90728 18.3185 6.13616C18.311 7.36503 17.8375 8.54499 16.994 9.43637H16.9965Z"
+                        fill="black"
+                        fill-opacity="0.2"
+                      />
+                    </svg>
+                  </div>
+                  <div class="mx-4">
+                    <h5 class="normal-text fw-bold mt">ZOE 707-10</h5>
+                    <p class="normal-text">000,00 €</p>
+                    <p class="small-text text-secondary">
+                      Sneakers basse consectetur adipiscing elit sed do eiusmod
+                    </p>
+                  </div>
+                </li>
+                <li class="splide__slide text-red">
+                  <div
+                    class="carousel item1 justify-content-between px-4 pt-3 d-flex"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none bg-black rounded-0 text-white text-uppercase py-1 px-2 extra-small-text button-carousel"
+                    >
+                      BEST SELLER
+                    </a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="18"
+                      viewBox="0 0 20 18"
+                      fill="none"
+                    >
+                      <path
+                        d="M14.2347 5.34579e-05C13.4598 -0.00182539 12.6929 0.157077 11.9822 0.466773C11.2715 0.776469 10.6323 1.23026 10.1049 1.79963L9.99999 1.9107L9.89758 1.80297C9.38348 1.25037 8.76447 0.806357 8.07691 0.497007C7.38934 0.187657 6.64708 0.0192075 5.89371 0.00154887C5.14033 -0.0161098 4.39104 0.117379 3.68981 0.394176C2.98859 0.670973 2.34958 1.0855 1.8103 1.61341C0.651621 2.81694 0.00280344 4.42382 9.06366e-06 6.09681C-0.00278532 7.7698 0.640661 9.37885 1.79531 10.5863L7.98421 17.1224C8.24235 17.3993 8.55448 17.6202 8.90123 17.7711C9.24799 17.9221 9.62197 18 9.99999 18C10.378 18 10.752 17.9221 11.0988 17.7711C11.4455 17.6202 11.7576 17.3993 12.0158 17.1224L18.2047 10.5863C19.3592 9.379 20.0026 7.77019 20 6.0974C19.9974 4.4246 19.3488 2.81784 18.1905 1.61425C17.132 0.579755 15.7127 0.000576452 14.2347 5.34579e-05ZM16.9965 9.43637L10.8085 15.9725C10.7039 16.0817 10.5784 16.1687 10.4394 16.2281C10.3005 16.2875 10.151 16.3181 9.99999 16.3181C9.84897 16.3181 9.6995 16.2875 9.56057 16.2281C9.42163 16.1687 9.2961 16.0817 9.19151 15.9725L3.00595 9.43637C2.16149 8.5443 1.68765 7.36306 1.68085 6.133C1.67404 4.90294 2.13478 3.71649 2.96931 2.81508C3.71717 2.08298 4.72022 1.67225 5.76526 1.6702C6.31394 1.66956 6.8568 1.78291 7.35965 2.00309C7.86249 2.22327 8.31441 2.54552 8.68694 2.94953L9.39634 3.70109C9.55673 3.86111 9.77376 3.95094 9.99999 3.95094C10.2262 3.95094 10.4433 3.86111 10.6036 3.70109L11.3155 2.94953C11.6881 2.54644 12.1397 2.22499 12.6421 2.0054C13.1445 1.78581 13.6867 1.67282 14.2347 1.67354C15.2811 1.67525 16.2855 2.08665 17.034 2.82009C17.8666 3.72166 18.3259 4.90728 18.3185 6.13616C18.311 7.36503 17.8375 8.54499 16.994 9.43637H16.9965Z"
+                        fill="black"
+                        fill-opacity="0.2"
+                      />
+                    </svg>
+                  </div>
+                  <div class="mx-4">
+                    <h5 class="normal-text fw-bold mt">ZOE 707-10</h5>
+                    <p class="normal-text">000,00 €</p>
+                    <p class="small-text text-secondary">
+                      Sneakers basse consectetur adipiscing elit sed do eiusmod
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
       </div>
       <!-- Discount Banner Row-->
       <div class="row d-flex py-5 justify-content-center text-center">
-        <h4 class="medium-text mt-md-5"> OTTIENI IL 10% DI SCONTO SUL PRIMO ACQUISTO</h4>
+        <h4 class="medium-text fw-bold mt-md-5">
+          OTTIENI IL 10% DI SCONTO SUL PRIMO ACQUISTO
+        </h4>
         <p>
-            Iscriviti ora alla newsletter e rimani aggiornato su tutte le novità del mondo Emanuelle Vee!
+          Iscriviti ora alla newsletter e rimani aggiornato su tutte le novità
+          del mondo Emanuelle Vee!
         </p>
-        <button type="button" class="mb-md-5 btn btn-outline-light rounded-0 w-auto small-text text-uppercase px-5 py-3  ">Iscriviti</button>
+        <button
+          type="button"
+          class="mb-md-5 btn btn-outline-light rounded-0 w-auto small-text text-uppercase px-5 py-3"
+        >
+          Iscriviti
+        </button>
       </div>
       <!-- BRAND Row-->
       <div class="brand-category-bg main-img-container custom-borderY row">
         <div class="mt-auto ps-md-4 pb-md-3">
-          <h1 class="large-text text-uppercase">BRAND</h1>
+          <h1 class="large-text fw-bold text-uppercase">BRAND</h1>
           <p class="normal-text text-uppercase">Scopri</p>
+        </div>
+      </div>
+      <!-- Footer-->
+      <div class="row text-white pt-5">
+        <div class="col-md-3 d-flex flex-column">
+          <h3 class="normal-text fw-bold text-uppercase my-3">Assistenza</h3>
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Guida all'acquisto</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Pagamenti</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Spedizioni</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Richieste di reso</a
+          >
+        </div>
+        <div class="col-md-3 d-flex flex-column">
+          <h3 class="normal-text fw-bold text-uppercase my-3">Brand</h3>
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >About</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Contatti</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Newsletter | 10% di sconto</a
+          >
+        </div>
+        <div class="col-md-3 d-flex flex-column">
+          <h3 class="normal-text text-uppercase fw-bold my-3">Prodotti</h3>
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Main Collection</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Sneakers</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Archive Sale</a
+          >
+        </div>
+        <div class="col-md-3 d-flex flex-column">
+          <h3 class="normal-text text-uppercase fw-bold my-3">Legal</h3>
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Termini e condizioni</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Privacy Policy</a
+          >
+          <a class="my-1 small-text text-decoration-none text-white" href="#"
+            >Cookie Policy</a
+          >
+        </div>
+        <div class="col-11 mt-5 d-flex justify-content-between">
+          <p class="small-text">
+            © 2023 BIGFOOT SRL | VIA EMILIA LEVANTE 233 – 48014 CASTEL BOLOGNESE
+            | P.IVA IT02218400394 | REA 181951 |
+          </p>
+          <ul class="d-flex list-unstyled">
+            <li><img src="/assets/klarna.png" alt="" /></li>
+            <li><img src="/assets/american.png" alt="" /></li>
+            <li><img src="/assets/visa.png" alt="" /></li>
+            <li><img src="/assets/american.png" alt="" /></li>
+            <li><img src="/assets/mastercard.svg" alt="" /></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -344,6 +560,8 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <!-- SplideJS Script -->
+    <script src="/splide.min.js"></script>
     <!-- JS Script -->
     <script src="/main.js"></script>
   </body>
