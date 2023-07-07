@@ -1,70 +1,76 @@
-body{
-background-color: black;
+body {
+  background-color: black;
 }
 
-*{
-    font-family: 'Archivo Narrow', sans-serif;
+* {
+  font-family: "Archivo Narrow", sans-serif;
 }
-.small-text{
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
+.small-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
 }
-.normal-text{
-    font-size: 18px;
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 400;
+.normal-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
 }
-.large-text{
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -1.28px;
+.medium-text {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
 }
-.navbar-height{
-    height: 100px;
+.large-text {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.28px;
 }
-.title-Navbar-link{
-letter-spacing: 0px;
+.navbar-height {
+  height: 100px;
 }
-.svg-margin{
-    margin-left: 20px;
+.title-Navbar-link {
+  letter-spacing: 0px;
 }
-.header-container{
-height: 1017px;
-background: url(/assets/DSC01345\ 5.png);
-background-repeat: no-repeat;
-background-size: 100% 100%;  
+.svg-margin {
+  margin-left: 20px;
+}
+.sneakers-category-bg {
+  background: url(/assets/sneakers.png);
+}
+.brand-category-bg {
+  background: url(/assets/brand.png);
 }
 
-.decollete-category-container{
-    height: 1030px;
-    background: url(/assets/decollette.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-bottom: 4px solid white;
-    border-top: 4px solid white;
-    border-right: 1.5px solid white;
-    background-position: bottom;
+.header-bg {
+  background: url(/assets/DSC01345\ 5.png);
 }
-.sandals-category-container{
-    
-    height: 1030px;
-    background: url(/assets/sandals.png);
-    background-repeat: no-repeat;
-    background-size:  100% 100%;  
-    background-position: center;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
-    border-left: 1.5px solid white;
-    background-position: bottom;
+.main-img-container {
+  height: 1017px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.sneakers-category-container{
-    height: 1017px;
-    background: url(/assets/sneakers.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;  
-    }
+.decollete-category-container {
+  height: 1030px;
+  background: url(/assets/decollette.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-right: 1.5px solid white;
+  background-position: bottom;
+}
+.sandals-category-container {
+  height: 1030px;
+  background: url(/assets/sandals.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-left: 1.5px solid white;
+  background-position: bottom;
+}
+.custom-borderY {
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
