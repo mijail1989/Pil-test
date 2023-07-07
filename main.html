@@ -22,216 +22,271 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid text-white mt-3 navbar-height">
-        <div class="d-flex container-fluid justify-content-between">
-            <a class="small-text" href="">Newsletter| 10% di sconto</a>
-            <p class="small-text">Spedizione gratuita per ordini superiori a 100 €</p>
-            <div>
-                <a class="small-text" href="">Italiano</a>
-                <a class="small-text ms-md-3 " href="">Aiuto e contatti</a>
-            </div>
-
+    <div class="container navbar-height text-white">
+      <!-- NavBar -->
+      <div class="d-flex container-fluid mt-3 justify-content-between">
+        <a class="small-text" href="">Newsletter| 10% di sconto</a>
+        <p class="small-text">
+          Spedizione gratuita per ordini superiori a 100 €
+        </p>
+        <div>
+          <a class="small-text" href="">Italiano</a>
+          <a class="small-text ms-md-3" href="">Aiuto e contatti</a>
         </div>
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
-          <div class="container-fluid d-flex ">
-            <a class="navbar-brand title-link" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="30"
-                viewBox="0 0 18 30"
-                fill="none"
-              >
-                <path
-                  d="M0 29.5095V0.0693359H17.1792V4.9183H4.71042V11.5683H14.1313V16.5558H4.71042V24.522H17.5948V29.4402C11.7761 29.5095 5.88803 29.5095 0 29.5095Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="30"
-                viewBox="0 0 24 30"
-                fill="none"
-              >
-                <path
-                  d="M14.1506 29.5788H10.1329C9.99836 29.5521 9.87193 29.4944 9.76369 29.4102C9.65544 29.326 9.56838 29.2177 9.50944 29.0939C8.53965 24.2449 7.56986 19.3959 6.66934 14.547C6.18444 12.0532 5.69954 9.55945 5.00683 7.13497V29.5788H0.712036V0.0693359H7.63913C9.02455 6.65007 10.41 13.3001 11.7954 19.9501H11.9339C13.3193 13.3694 14.6355 6.71935 16.0209 0.0693359H23.0173V29.5788H18.7225V7.41206H18.5147C17.06 14.7548 15.6053 22.1668 14.1506 29.5788Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="30"
-                viewBox="0 0 24 30"
-                fill="none"
-              >
-                <path
-                  d="M23.9548 29.5788H18.8288C18.2053 27.5699 17.6512 25.561 16.9585 23.5522C16.8892 23.3444 16.5428 22.998 16.335 22.998C13.4257 22.9287 10.447 22.998 7.46835 22.998C6.91419 25.0069 6.29075 27.0157 5.73658 28.9553C5.59804 29.5095 5.39022 29.648 4.83606 29.648H0.54126C3.58918 19.7423 6.56783 9.90581 9.54648 0.0693359C11.0704 0.0693359 12.5944 0.0693362 14.1184 0.138607C14.3262 0.138607 14.6725 0.623503 14.7418 0.900587C16.7507 7.27351 18.7595 13.7157 20.7684 20.1579C21.946 23.2058 22.9158 26.323 23.9548 29.5788ZM12.248 7.34278H12.0402C11.0012 10.8756 10.0314 14.4084 8.99231 17.9412H15.296C14.2569 14.3391 13.2178 10.8756 12.248 7.34278Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="30"
-                viewBox="0 0 20 30"
-                fill="none"
-              >
-                <path
-                  d="M5.11986 29.5787H0.686523V0H4.84278C5.05059 0 5.39695 0.415626 5.53549 0.692709C8.44487 6.65001 11.285 12.6073 14.1944 18.5646C14.2903 18.8351 14.4579 19.0745 14.6793 19.2573V0H19.0433V29.5094H14.6793C14.4714 29.5094 14.1944 29.0938 14.0558 28.886C11.2157 23.0672 8.44487 17.2485 5.60476 11.4297C5.46622 11.1526 5.32768 10.9448 5.11986 10.4599V29.5787Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="19"
-                height="30"
-                viewBox="0 0 19 30"
-                fill="none"
-              >
-                <path
-                  d="M0.33816 0H4.97931V17.1792C4.95407 18.6416 5.07006 20.1031 5.32567 21.5433C5.49634 22.5394 6.02943 23.4371 6.82232 24.0638C7.61522 24.6904 8.61187 25.0016 9.62046 24.9375C11.6986 24.9375 13.2918 23.8985 13.7075 22.0974C13.9601 20.7969 14.0762 19.4736 14.0538 18.149C14.1231 12.4688 14.0538 6.71928 14.0538 1.03906V0.0692712H18.7642V0.969793C18.7642 7.06564 18.7642 13.2307 18.695 19.3266C18.6708 20.9308 18.5085 22.5299 18.2101 24.1063C17.9195 25.5802 17.1758 26.9265 16.083 27.9573C14.9901 28.9881 13.6026 29.6518 12.1142 29.8558C10.3861 30.0868 8.63222 30.04 6.9189 29.7172C3.45535 29.1631 1.51576 26.8079 0.823055 23.4136C0.486914 21.5858 0.32456 19.7303 0.33816 17.8719C0.268889 12.1224 0.33816 6.37293 0.33816 0.692709V0Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="30"
-                viewBox="0 0 18 30"
-                fill="none"
-              >
-                <path
-                  d="M4.76944 24.5912H17.6538V29.5094H0.059021V0H17.2382V4.91824H4.76944V11.5682H14.2596V16.5558H4.76944V24.5912Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="30"
-                viewBox="0 0 18 30"
-                fill="none"
-              >
-                <path
-                  d="M0.978821 0.346436H5.5507V24.5913H17.1882V29.5095H0.978821V0.346436Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="30"
-                viewBox="0 0 18 30"
-                fill="none"
-              >
-                <path
-                  d="M0.978821 0.346436H5.5507V24.5913H17.1882V29.5095H0.978821V0.346436Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="19"
-                height="30"
-                viewBox="0 0 19 30"
-                fill="none"
-              >
-                <path
-                  d="M15.2784 11.6376V16.6251H5.64975V24.5912H18.5341V29.5095H0.939331V0.0693359H18.1185V4.98757H5.64975V11.6376H15.2784Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="23"
-                height="30"
-                viewBox="0 0 23 30"
-                fill="none"
-                class="ms-3"
-              >
-                <path
-                  d="M0.921143 0.0693359H5.97791C7.9175 7.20424 9.78783 14.3391 11.7274 21.5433H11.9352C13.8055 14.4084 15.6758 7.27351 17.4769 0.0693359H22.4644C21.2868 4.22559 20.1092 8.38185 19.0009 12.5381C17.4769 18.0105 15.8837 23.4829 14.429 28.9553C14.4205 29.0687 14.3872 29.1788 14.3314 29.2779C14.2756 29.377 14.1988 29.4626 14.1063 29.5287C14.0137 29.5948 13.9078 29.6397 13.796 29.6604C13.6842 29.681 13.5692 29.6768 13.4592 29.648C12.2123 29.5788 10.9654 29.648 9.71854 29.5788C9.57477 29.5531 9.43831 29.4965 9.31868 29.4127C9.19904 29.329 9.0991 29.2202 9.02583 29.0939C6.32426 19.4652 3.62271 9.76727 0.921143 0.0693359Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="30"
-                viewBox="0 0 18 30"
-                fill="none"
-              >
-                <path
-                  d="M0.265442 0H17.4446V4.91824H4.97588V11.5682H14.466V16.5558H5.04515V24.5219H17.9295V29.5094H0.334717C0.265446 19.7422 0.265442 9.90574 0.265442 0Z"
-                  fill="white"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="30"
-                viewBox="0 0 18 30"
-                fill="none"
-              >
-                <path
-                  d="M0.265442 0H17.4446V4.91824H4.97588V11.5682H14.466V16.5558H5.04515V24.5219H17.9295V29.5094H0.334717C0.265446 19.7422 0.265442 9.90574 0.265442 0Z"
-                  fill="white"
-                />
-              </svg>
-            </a>
-            <div class="" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link normal-text  fw-bold  active" aria-current="page" href="#"
-                    >MAIN COLLECTION</a
-                  >
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link normal-text  fw-bold ms-md-2  active" aria-current="page" href="#"
-                      >SNEAKERS</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link normal-text  fw-bold ms-md-2  active" aria-current="page" href="#"
-                      >ARCHIVE SALE</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link normal-text  fw-bold ms-md-2   active" aria-current="page" href="#"
-                      >BRAND</a
-                    >
-                  </li>
-              </ul>
-            </div>
-            <div class="" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link small-text  text-uppercase" aria-current="page" href="#"
-                      >Search</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link small-text  text-uppercase ms-md-2 " aria-current="page" href="#"
-                        >Account</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link small-text  text-uppercase ms-md-2 " aria-current="page" href="#"
-                        >Whishlist</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link small-text  text-uppercase ms-md-2 " aria-current="page" href="#"
-                        >Carrello</a
-                      >
-                    </li>
-                </ul>
-              </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-black mb-2" data-bs-theme="dark">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand title-Navbar-link" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="30"
+              viewBox="0 0 18 30"
+              fill="none"
+            >
+              <path
+                d="M0 29.5095V0.0693359H17.1792V4.9183H4.71042V11.5683H14.1313V16.5558H4.71042V24.522H17.5948V29.4402C11.7761 29.5095 5.88803 29.5095 0 29.5095Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="30"
+              viewBox="0 0 24 30"
+              fill="none"
+            >
+              <path
+                d="M14.1506 29.5788H10.1329C9.99836 29.5521 9.87193 29.4944 9.76369 29.4102C9.65544 29.326 9.56838 29.2177 9.50944 29.0939C8.53965 24.2449 7.56986 19.3959 6.66934 14.547C6.18444 12.0532 5.69954 9.55945 5.00683 7.13497V29.5788H0.712036V0.0693359H7.63913C9.02455 6.65007 10.41 13.3001 11.7954 19.9501H11.9339C13.3193 13.3694 14.6355 6.71935 16.0209 0.0693359H23.0173V29.5788H18.7225V7.41206H18.5147C17.06 14.7548 15.6053 22.1668 14.1506 29.5788Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="30"
+              viewBox="0 0 24 30"
+              fill="none"
+            >
+              <path
+                d="M23.9548 29.5788H18.8288C18.2053 27.5699 17.6512 25.561 16.9585 23.5522C16.8892 23.3444 16.5428 22.998 16.335 22.998C13.4257 22.9287 10.447 22.998 7.46835 22.998C6.91419 25.0069 6.29075 27.0157 5.73658 28.9553C5.59804 29.5095 5.39022 29.648 4.83606 29.648H0.54126C3.58918 19.7423 6.56783 9.90581 9.54648 0.0693359C11.0704 0.0693359 12.5944 0.0693362 14.1184 0.138607C14.3262 0.138607 14.6725 0.623503 14.7418 0.900587C16.7507 7.27351 18.7595 13.7157 20.7684 20.1579C21.946 23.2058 22.9158 26.323 23.9548 29.5788ZM12.248 7.34278H12.0402C11.0012 10.8756 10.0314 14.4084 8.99231 17.9412H15.296C14.2569 14.3391 13.2178 10.8756 12.248 7.34278Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="30"
+              viewBox="0 0 20 30"
+              fill="none"
+            >
+              <path
+                d="M5.11986 29.5787H0.686523V0H4.84278C5.05059 0 5.39695 0.415626 5.53549 0.692709C8.44487 6.65001 11.285 12.6073 14.1944 18.5646C14.2903 18.8351 14.4579 19.0745 14.6793 19.2573V0H19.0433V29.5094H14.6793C14.4714 29.5094 14.1944 29.0938 14.0558 28.886C11.2157 23.0672 8.44487 17.2485 5.60476 11.4297C5.46622 11.1526 5.32768 10.9448 5.11986 10.4599V29.5787Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="30"
+              viewBox="0 0 19 30"
+              fill="none"
+            >
+              <path
+                d="M0.33816 0H4.97931V17.1792C4.95407 18.6416 5.07006 20.1031 5.32567 21.5433C5.49634 22.5394 6.02943 23.4371 6.82232 24.0638C7.61522 24.6904 8.61187 25.0016 9.62046 24.9375C11.6986 24.9375 13.2918 23.8985 13.7075 22.0974C13.9601 20.7969 14.0762 19.4736 14.0538 18.149C14.1231 12.4688 14.0538 6.71928 14.0538 1.03906V0.0692712H18.7642V0.969793C18.7642 7.06564 18.7642 13.2307 18.695 19.3266C18.6708 20.9308 18.5085 22.5299 18.2101 24.1063C17.9195 25.5802 17.1758 26.9265 16.083 27.9573C14.9901 28.9881 13.6026 29.6518 12.1142 29.8558C10.3861 30.0868 8.63222 30.04 6.9189 29.7172C3.45535 29.1631 1.51576 26.8079 0.823055 23.4136C0.486914 21.5858 0.32456 19.7303 0.33816 17.8719C0.268889 12.1224 0.33816 6.37293 0.33816 0.692709V0Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="30"
+              viewBox="0 0 18 30"
+              fill="none"
+            >
+              <path
+                d="M4.76944 24.5912H17.6538V29.5094H0.059021V0H17.2382V4.91824H4.76944V11.5682H14.2596V16.5558H4.76944V24.5912Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="30"
+              viewBox="0 0 18 30"
+              fill="none"
+            >
+              <path
+                d="M0.978821 0.346436H5.5507V24.5913H17.1882V29.5095H0.978821V0.346436Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="30"
+              viewBox="0 0 18 30"
+              fill="none"
+            >
+              <path
+                d="M0.978821 0.346436H5.5507V24.5913H17.1882V29.5095H0.978821V0.346436Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="30"
+              viewBox="0 0 19 30"
+              fill="none"
+            >
+              <path
+                d="M15.2784 11.6376V16.6251H5.64975V24.5912H18.5341V29.5095H0.939331V0.0693359H18.1185V4.98757H5.64975V11.6376H15.2784Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="30"
+              viewBox="0 0 23 30"
+              fill="none"
+              class="ms-3"
+            >
+              <path
+                d="M0.921143 0.0693359H5.97791C7.9175 7.20424 9.78783 14.3391 11.7274 21.5433H11.9352C13.8055 14.4084 15.6758 7.27351 17.4769 0.0693359H22.4644C21.2868 4.22559 20.1092 8.38185 19.0009 12.5381C17.4769 18.0105 15.8837 23.4829 14.429 28.9553C14.4205 29.0687 14.3872 29.1788 14.3314 29.2779C14.2756 29.377 14.1988 29.4626 14.1063 29.5287C14.0137 29.5948 13.9078 29.6397 13.796 29.6604C13.6842 29.681 13.5692 29.6768 13.4592 29.648C12.2123 29.5788 10.9654 29.648 9.71854 29.5788C9.57477 29.5531 9.43831 29.4965 9.31868 29.4127C9.19904 29.329 9.0991 29.2202 9.02583 29.0939C6.32426 19.4652 3.62271 9.76727 0.921143 0.0693359Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="30"
+              viewBox="0 0 18 30"
+              fill="none"
+            >
+              <path
+                d="M0.265442 0H17.4446V4.91824H4.97588V11.5682H14.466V16.5558H5.04515V24.5219H17.9295V29.5094H0.334717C0.265446 19.7422 0.265442 9.90574 0.265442 0Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="30"
+              viewBox="0 0 18 30"
+              fill="none"
+            >
+              <path
+                d="M0.265442 0H17.4446V4.91824H4.97588V11.5682H14.466V16.5558H5.04515V24.5219H17.9295V29.5094H0.334717C0.265446 19.7422 0.265442 9.90574 0.265442 0Z"
+                fill="white"
+              />
+            </svg>
+          </a>
+          <div class="" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link normal-text fw-bold active"
+                  aria-current="page"
+                  href="#"
+                  >MAIN COLLECTION</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link normal-text fw-bold ms-md-2 active"
+                  aria-current="page"
+                  href="#"
+                  >SNEAKERS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link normal-text fw-bold ms-md-2 active"
+                  aria-current="page"
+                  href="#"
+                  >ARCHIVE SALE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link normal-text fw-bold ms-md-2 active"
+                  aria-current="page"
+                  href="#"
+                  >BRAND</a
+                >
+              </li>
+            </ul>
           </div>
-        </nav>
-     
+          <div class="" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link small-text text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  >Search</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link small-text text-uppercase ms-md-2"
+                  aria-current="page"
+                  href="#"
+                  >Account</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link small-text text-uppercase ms-md-2"
+                  aria-current="page"
+                  href="#"
+                  >Whishlist</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link small-text text-uppercase ms-md-2"
+                  aria-current="page"
+                  href="#"
+                  >Carrello</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header -->
+      <div class="header-container row">
+        <div class="mt-auto ps-md-4 pb-md-3">
+          <h1 class="large-text">MAIN COLLECTION</h1>
+          <p class="normal-text text-uppercase">Acquista ora</p>
+        </div>
+      </div>
+      <!-- Categories Decollete Sandals -->
+      <div class="row">
+        <div class="col-md-6 d-flex decollete-category-container">
+          <div class="mt-auto ps-md-4 pb-md-3">
+            <h1 class="large-text text-uppercase">décolleté</h1>
+            <p class="normal-text text-uppercase">Acquista ora</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex sandals-category-container">
+          <div class="mt-auto ps-md-4 pb-md-3">
+            <h1 class="large-text text-uppercase">sandals</h1>
+            <p class="normal-text text-uppercase">Acquista ora</p>
+          </div>
+        </div>
+      </div>
+      <!-- Categories Sneakers -->
+
+      <div class="sneakers-category-container row">
+        <div class="mt-auto ps-md-4 pb-md-3">
+          <h1 class="large-text">SNEAKERS</h1>
+          <p class="normal-text text-uppercase">Acquista ora</p>
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap Script -->

@@ -2,9 +2,8 @@ body{
 background-color: black;
 }
 
-h1,h2,h3,h4,h5{
+*{
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 64px !important;
 }
 .small-text{
     color: #FFF;
@@ -16,14 +15,56 @@ h1,h2,h3,h4,h5{
     font-size: 18px;
     line-height: 24px;
     font-style: normal;
-    font-family: Archivo Narrow;
+    font-weight: 400;
+}
+.large-text{
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.28px;
 }
 .navbar-height{
     height: 100px;
 }
-.title-link{
+.title-Navbar-link{
 letter-spacing: 0px;
 }
 .svg-margin{
     margin-left: 20px;
 }
+.header-container{
+height: 1017px;
+background: url(/assets/DSC01345\ 5.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;  
+}
+
+.decollete-category-container{
+    height: 1030px;
+    background: url(/assets/decollette.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    border-right: 1.5px solid white;
+    background-position: bottom;
+}
+.sandals-category-container{
+    
+    height: 1030px;
+    background: url(/assets/sandals.png);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;  
+    background-position: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 1.5px solid white;
+    background-position: bottom;
+}
+.sneakers-category-container{
+    height: 1017px;
+    background: url(/assets/sneakers.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    }
